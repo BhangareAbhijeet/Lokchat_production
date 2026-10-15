@@ -1,0 +1,130 @@
+﻿========== PROJECT ROOT ==========
+
+Mode   Length Name                
+----   ------ ----                
+d--h--        .git                
+d-----        client              
+d-----        docs                
+d-----        server              
+-a---- 287324 folder-structure.txt
+-a---- 39     project-audit.txt   
+-a---- 46     README.md           
+
+
+
+========== FRONTEND FILE STRUCTURE ==========
+
+FullName                                                                             
+--------                                                                             
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\client\src\App.css         
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\client\src\App.jsx         
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\client\src\index.css       
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\client\src\main.jsx        
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\client\src\assets\hero.png 
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\client\src\assets\react.svg
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\client\src\assets\vite.svg 
+
+
+
+========== FRONTEND PACKAGE.JSON ==========
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.4",
+    "socket.io-client": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "vite": "^8.3.0"
+  }
+}
+========== BACKEND FILE STRUCTURE ==========
+
+FullName                                                                                                          
+--------                                                                                                          
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\package-lock.json                                
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\package.json                                     
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\.ene.example                                 
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\.env                                         
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\app.js                                       
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\server.js                                    
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\config\cors.js                               
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\config\database.js                           
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\config\env.js                                
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\domain\auth\registerUser.js                  
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\domain\users\User.js                         
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\interfaces\http\controllers\authController.js
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\interfaces\http\routes\authRoutes.js         
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\middleware\authMiddleware.js                 
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\middleware\errorHandler.js                   
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\middleware\notFoundHandler.js                
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\middleware\validateRequest.js                
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\shared\errors\AppError.js                    
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\shared\errors\asyncHandler.js                
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\shared\errors\errorCodes.js                  
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\shared\logging\logger.js                     
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\socket\index.js                              
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\socket\socketAuth.js                         
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\socket\socketErrorHandler.js                 
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\socket\handlers\messageHandler.js            
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\socket\handlers\presenceHandler.js           
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\socket\handlers\readReceiptHandler.js        
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\socket\handlers\typingHandler.js             
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\webrtc\callService.js                        
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\webrtc\callValidator.js                      
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\webrtc\signalingService.js                   
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\src\webrtc\handlers\callSignalingHandler.js      
+C:\Users\bhang.ABHI\Documents\lokchat-web\lokchat-web-app\server\tests\userModel.test.js                          
+
+
+
+========== BACKEND PACKAGE.JSON ==========
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.2",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
+========== BACKEND ENV EXAMPLE ==========
+========== GIT STATUS ==========
+ M server/src/app.js
+?? folder-structure.txt
+?? project-audit.txt
+?? server/src/domain/
+?? server/src/interfaces/
+?? server/tests/
