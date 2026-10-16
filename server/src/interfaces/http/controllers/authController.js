@@ -1,4 +1,4 @@
-const registerUser = require("../../../application/auth/registerUser");
+const registerUser = require("../../../domain/auth/registerUser");
 const loginUser = require("../../../domain/auth/loginUser");
 
 const register = async (req, res) => {

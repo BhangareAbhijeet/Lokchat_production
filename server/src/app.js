@@ -4,6 +4,7 @@ const cors = require("cors");
 const notFoundHandler = require("./middleware/notFoundHandler");
 const errorHandler = require("./middleware/errorHandler");
 const authRoutes = require("./interfaces/http/routes/authRoutes");
+const userRoutes = require("./interfaces/http/routes/userRoutes");
 
 const app = express();
 
@@ -24,6 +25,7 @@ app.get("/api/health", (req, res) => {
 
 // Register application routes above these handlers.
 app.use("/api/auth", authRoutes);
+app.use("/api/users", userRoutes);
 
 // Handle unknown routes
 app.use(notFoundHandler);
